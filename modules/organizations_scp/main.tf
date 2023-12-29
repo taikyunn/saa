@@ -2,7 +2,7 @@
 # こちらのアカウントにスイッチするとEC2インスタンスがt2.micro以外作成できないようになる
 resource "aws_organizations_account" "account" {
   name  = "taichi_test_dev"
-  email = "test123345678@example.com"
+  email = "test123345678999@example.com"
   tags = {
     Name = "taichi_test_dev"
   }
@@ -20,7 +20,7 @@ resource "aws_organizations_organizational_unit" "this" {
 }
 
 resource "aws_organizations_policy" "this" {
-  name = "ec2_for_dev"
+  name    = "ec2_for_dev"
   content = data.aws_iam_policy_document.this.json
 }
 

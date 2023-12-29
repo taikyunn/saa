@@ -9,3 +9,7 @@ module "organizations_scp" {
 # module "ec2-cw" {
 #   source = "../../modules/ec2-cw"
 # }
+
+# module "cw_agent" {
+#   source = "../../modules/cw-agent"
+# }

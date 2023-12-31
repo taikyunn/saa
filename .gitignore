@@ -1,2 +1,3 @@
 .DS_Store
 enviroments/test/
+modules/cloudTrail-lamnda-notification/lambda_function.zip

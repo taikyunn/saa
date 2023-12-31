@@ -13,3 +13,7 @@ module "organizations_scp" {
 # module "cw_agent" {
 #   source = "../../modules/cw-agent"
 # }
+
+# module "cloudTrail-lamnda-notification" {
+#   source = "../../modules/cloudTrail-lamnda-notification"
+# }
